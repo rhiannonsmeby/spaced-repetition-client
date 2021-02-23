@@ -72,9 +72,11 @@ class LoginForm extends Component {
             required
           />
         </div>
+        <footer>
         <Button type='submit'>
           Login
         </Button>
+        </footer>
       </form>
     )
   }

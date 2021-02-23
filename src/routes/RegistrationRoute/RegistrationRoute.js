@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import RegistrationForm from '../../components/RegistrationForm/RegistrationForm'
-import './RegistrationRoute.css'
+import './RegistrationRoute.css';
 
 class RegistrationRoute extends Component {
   static defaultProps = {
@@ -18,7 +18,7 @@ class RegistrationRoute extends Component {
     return (
       <section>
         <p>
-          Practice learning a language with the spaced reptition revision technique.
+          Practice learning the French words you need for an easy trip to the boulongerie with the spaced reptition revision technique
         </p>
         <div className='sign-up'>
         <h2>Sign up</h2>

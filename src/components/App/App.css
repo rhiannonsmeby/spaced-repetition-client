@@ -1,0 +1,56 @@
+body {
+    background: #F7F7FF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    color: #233D4D;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  .sign-up {
+    background: #CFCFEA;
+    margin: 20px;
+    border-radius: 2rem;
+    padding: 5px;
+    box-shadow: 0px 16px 40px #CFCFEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  button, select, input {
+    border-radius: 2rem;
+    background: transparent;
+    font-family: "Open Sans", sans-serif;
+      border: 2px solid #233D4D;
+      cursor: pointer;
+      font-size: 15px;
+    padding: 6px 24px;
+    margin: 5px;
+  }
+  
+  footer {
+    margin: 20px;
+  }
+
+  @media all and (min-width: 800px) {
+    .sign-up {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+  
+  }
