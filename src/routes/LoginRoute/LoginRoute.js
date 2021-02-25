@@ -18,7 +18,7 @@ class LoginRoute extends Component {
   render() {
     return (
       <section>
-        <p>Practice learning the French words you need for an easy trip to the boulongerie with the spaced reptition revision technique</p>
+        <p>Practice learning a new language with the spaced reptition revision technique</p>
         <div className='sign-up'>
           <h2>Login</h2>
           <LoginForm

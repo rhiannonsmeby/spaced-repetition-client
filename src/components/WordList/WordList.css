@@ -1,0 +1,44 @@
+.note {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.notecard {
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 0px;
+    line-height: 0;
+}
+
+.display-words {
+    max-width: 1335px;
+    margin: 0 auto;
+  }
+  .grid-rows {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .grid-item {
+    height: 400px;
+    flex-basis: 33.33%;
+    width: 250px;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-image: url(https://i.dlpng.com/static/png/6848564_preview.png);
+    background-size: 700px;
+  }
+  @media(max-width: 1073px) {
+     .grid-item {
+      flex-basis: 33.33%;
+    }
+  }
+  @media(max-width: 815px) {
+    .grid-item {
+      flex-basis: 50%;
+    }
+  }
+ 
