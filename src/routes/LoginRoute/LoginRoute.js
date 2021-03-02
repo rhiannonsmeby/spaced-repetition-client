@@ -19,7 +19,7 @@ class LoginRoute extends Component {
     return (
       <section>
         <p>Practice learning a new language with the spaced reptition revision technique</p>
-        <div className='sign-up'>
+        <div className='boxed'>
           <h2>Login</h2>
           <LoginForm
             onLoginSuccess={this.handleLoginSuccess}

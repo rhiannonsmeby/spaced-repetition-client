@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import './DashboardRoute.css';
 import WordList from '../../components/WordList/WordList';
 import LanguageService from '../../services/language-service';
 
@@ -39,7 +38,7 @@ class DashboardRoute extends Component {
     return (
       <section>
         <p>Continue learning the French words you need for an easy trip to the boulongerie</p>
-        <div className='sign-up'>
+        <div className='boxed'>
           <h2>Dashboard</h2>
           <div className='details'>
             <h2>{`Language: ${this.state.language}`}</h2>

@@ -35,6 +35,25 @@ const LanguageService = {
         } catch (e) {
             console.error(e);
         }
+    },
+    submitGuess: async function(guess) {
+        try {
+            const response = await fetch(`${config.API_ENDPOINT}/language/guess`, {
+                method: 'POST',
+                headers: {
+                    'content-type': 'application/json',
+                    Authorization: `Bearer ${TokenService.getAuthToken()}`
+                },
+                body: JSON.stringify({guess: guess})
+            })
+            if (!response.ok) {
+                return response.json().then((event) => Promise.reject(event.error))
+            } else { 
+                return response.json()
+            }
+        } catch (e) {
+            console.error(e);
+        }
     }
 };
 

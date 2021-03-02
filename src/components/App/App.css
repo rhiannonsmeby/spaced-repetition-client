@@ -12,7 +12,7 @@ body {
     text-decoration: none;
   }
   
-  .sign-up {
+  .boxed {
     background: #CFCFEA;
     margin: 20px;
     border-radius: 2rem;
@@ -38,8 +38,18 @@ body {
     margin: 20px;
   }
 
+  .actual_word {
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+    }
+
+    .correct-score, .incorrect-score, .total-score {
+        line-height: 0;
+    }
+
   @media all and (min-width: 800px) {
-    .sign-up {
+    .boxed {
       margin-top: 60px;
       margin-bottom: 60px;
       margin-left: 10px;

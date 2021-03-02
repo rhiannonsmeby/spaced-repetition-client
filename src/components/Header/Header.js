@@ -17,7 +17,7 @@ class Header extends Component {
         <span>
           <p>{this.context.user.name}</p>
         </span>
-        <nav>
+        <nav className='top-nav'>
           <ul className='navigation'>
             <li className='nav-item'>
             <Link
