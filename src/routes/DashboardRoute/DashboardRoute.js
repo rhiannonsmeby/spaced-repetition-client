@@ -13,7 +13,6 @@ class DashboardRoute extends Component {
   componentDidMount() {
     LanguageService.getAllWords()
       .then(res => {
-        console.log(res);
         this.setState({
           words: res.words,
           language: res.language.name,

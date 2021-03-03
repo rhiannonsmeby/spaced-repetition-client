@@ -12,7 +12,6 @@ export default class Feedback extends React.Component {
     }
 
     render() {
-        console.log(this.props, 'feedback props')
         return (
             <div className='feedback boxed'>
                 {this.renderMessage()}
