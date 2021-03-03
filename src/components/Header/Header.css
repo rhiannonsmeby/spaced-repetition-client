@@ -17,7 +17,7 @@ header a, nav a{
     float: right;
     margin-right: 20px;
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 12px;
     padding-top: 0px;
 }
 
@@ -48,6 +48,10 @@ span {
 
     p {
         margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .nav-item {
         font-size: 20px;
     }
     
