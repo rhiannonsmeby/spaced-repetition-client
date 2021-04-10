@@ -1,5 +1,8 @@
 # Spaced Repetition Capstone
 
+## Live app: https://spaced-repetition-alpha-lovat.vercel.app
+## Server repo: https://github.com/rhiannonsmeby/spaced-repetition-server
+
 ## Summary
 
 This app is a demonstration of the spaced repetition revision technique for learning vocabulary in a foriegn language. Currently, only French is supported, but you can fork this repo and the corresponding server repo if you would like to expand this app to include additional languages. 
