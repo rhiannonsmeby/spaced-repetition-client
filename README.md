@@ -1,6 +1,6 @@
 # Spaced Repetition Capstone
 
-## Live app: https://spaced-repetition-alpha-lovat.vercel.app
+## Live app: https://spaced-repetition-rhiannon.vercel.app/
 ## Server repo: https://github.com/rhiannonsmeby/spaced-repetition-server
 
 ## Summary
