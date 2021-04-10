@@ -1,19 +1,8 @@
 # Spaced Repetition Capstone
 
-## Setup
+## Summary
 
-To setup the application
-
-1. Fork and clone the project to your machine
-2. `npm install`. This will also install the application *Cypress.io* for running browser integration tests
-
-The project expects you have the Spaced repetition API project setup and running on http://localhost:8000.
-
-Find instructions to setup the API here https://github.com/Thinkful-Ed/spaced-repetition-api.
-
-## Running project
-
-This is a `create-react-app` project so `npm start` will start the project in development mode with hot reloading by default.
+This app is a demonstration of the spaced repetition revision technique for learning vocabulary in a foriegn language. Currently, only French is supported, but you can fork this repo and the corresponding server repo if you would like to expand this app to include additional languages. 
 
 ## Running the tests
 
@@ -45,3 +34,15 @@ npm run cypress:run
 ```
 
 This will save video recordings of the test runs in the directory `./cypress/videos/`.
+
+## Technology used
+
+- React.js
+- Node.js
+- Express.js
+- XML
+- CSS
+
+## Contact the developer
+
+- smebyrhi@gmail.com
